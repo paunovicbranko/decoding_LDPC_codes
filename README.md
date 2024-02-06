@@ -9,7 +9,7 @@ We loaded the project's given parity-check matrix using the loadtxt() function f
 
 • Bit-flipping:
 This decoder was implemented by calculating all syndromes for each information bit and performing a majority
-decision. Majority decision was implemented using the helper function decisionMaking(). If the result of the majority
+decision. The majority decision was implemented using the helper function decisionMaking(). If the result of the majority
 decision was -1, the sign of the observed information bit was changed. This process was repeated for a predefined
 maximum number of iterations or until the received sequence converged to the codeword. This algorithm is the simplest,
 and therefore, it is expected to have the worst performance among all.
